@@ -1,0 +1,2 @@
+# DoubanAssessScrapy
+初学者请多多指教。使用python抓取豆瓣霸王别姬影评，并对抓回的网页进行内容提取
