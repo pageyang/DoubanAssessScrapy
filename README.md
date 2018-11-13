@@ -13,7 +13,8 @@
 
 - 在爬取过程中遇到了一些问题。在爬豆瓣影评怕了七百多条的时候就访问不了豆瓣，搜索后发现原来时访问频率太快导致ip被封了,所以爬数据时要注意控制速度，或是使用代理ip。
 - 在提取内容的过程中也遇到了很多问题，都通过百度和google解决了。
-  - 第一个就是beautifulsoup的问题，一直用不了select函数，google后发现原来时beautifulsoup版本导致的，解决方法：将它的import语句写成
+  - 第一个就是beautifulsoup的问题，一直用不了select函数，google后发现原来是beautifulsoup版本导致的，
+  解决方法：将它的import语句写成
     try:
     from bs4 import BeautifulSoup
     except ImportError:
